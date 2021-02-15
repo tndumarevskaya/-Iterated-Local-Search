@@ -8,5 +8,6 @@ int main() {
 	IteratedLocalSearch(test);
 	std::cout << std::setprecision(15) << test.getSolutionWeight() << std::endl;
 	test.print();
+	file.close();
 	return 0;
 }
